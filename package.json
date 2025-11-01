@@ -5,7 +5,7 @@
   "type": "module",
   "main": "dist/index.js",
   "bin": {
-    "zubeid-youtube-mcp-server": "dist/cli.js"
+    "arsalan-ayaz-youtube-mcp-server": "dist/cli.js"
   },
   "files": [
     "dist",
