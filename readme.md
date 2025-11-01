@@ -5,6 +5,7 @@ A Model Context Protocol (MCP) server implementation for YouTube, enabling AI la
 
 ## Features
 
+
 ### Video Information
 * Get video details (title, description, duration, etc.)
 * List channel videos
