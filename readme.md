@@ -1,5 +1,5 @@
 # YouTube MCP Server
-[![smithery badge](https://smithery.ai/badge/@ZubeidHendricks/youtube)](https://smithery.ai/server/@ZubeidHendricks/youtube)
+
 
 A Model Context Protocol (MCP) server implementation for YouTube, enabling AI language models to interact with YouTube content through a standardized interface.
 
@@ -35,7 +35,7 @@ A Model Context Protocol (MCP) server implementation for YouTube, enabling AI la
 
 1. Install the package:
 ```bash
-npm install -g zubeid-youtube-mcp-server
+npm install -g arsalan-ayaz-youtube-mcp-server
 ```
 
 2. Add to your Claude Desktop configuration (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS or `%APPDATA%\Claude\claude_desktop_config.json` on Windows):
@@ -43,8 +43,8 @@ npm install -g zubeid-youtube-mcp-server
 ```json
 {
   "mcpServers": {
-    "zubeid-youtube-mcp-server": {
-      "command": "zubeid-youtube-mcp-server",
+    "arsalan-ayaz-youtube-mcp-server": {
+      "command": "arsalan-ayaz-youtube-mcp-server",
       "env": {
         "YOUTUBE_API_KEY": "your_youtube_api_key_here"
       }
@@ -60,9 +60,9 @@ Add this to your Claude Desktop configuration:
 ```json
 {
   "mcpServers": {
-    "youtube": {
+    "arsalan-ayaz-youtube-mcp-server": {
       "command": "npx",
-      "args": ["-y", "zubeid-youtube-mcp-server"],
+      "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
       "env": {
         "YOUTUBE_API_KEY": "your_youtube_api_key_here"
       }
@@ -107,9 +107,9 @@ Add the following JSON block to your User Settings (JSON) file in VS Code. You c
       }
     ],
     "servers": {
-      "youtube": {
+      "arsalan-ayaz-youtube-mcp-server": {
         "command": "npx",
-        "args": ["-y", "zubeid-youtube-mcp-server"],
+        "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
         "env": {
           "YOUTUBE_API_KEY": "${input:apiKey}"
         }
@@ -132,9 +132,9 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
     }
   ],
   "servers": {
-    "youtube": {
+    "arsalan-ayaz-youtube-mcp-server": {
       "command": "npx",
-      "args": ["-y", "zubeid-youtube-mcp-server"],
+      "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
       "env": {
         "YOUTUBE_API_KEY": "${input:apiKey}"
       }
