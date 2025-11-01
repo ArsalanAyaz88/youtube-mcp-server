@@ -1,5 +1,5 @@
 # YouTube MCP Server
-[![smithery badge](https://smithery.ai/badge/@ZubeidHendricks/youtube)](https://smithery.ai/server/@ZubeidHendricks/youtube)
+
 
 A Model Context Protocol (MCP) server implementation for YouTube, enabling AI language models to interact with YouTube content through a standardized interface.
 
@@ -44,7 +44,7 @@ npm install -g zubeid-youtube-mcp-server
 {
   "mcpServers": {
     "zubeid-youtube-mcp-server": {
-      "command": "zubeid-youtube-mcp-server",
+      "command": "arsalan-ayaz-youtube-mcp-server",
       "env": {
         "YOUTUBE_API_KEY": "your_youtube_api_key_here"
       }
@@ -62,7 +62,7 @@ Add this to your Claude Desktop configuration:
   "mcpServers": {
     "youtube": {
       "command": "npx",
-      "args": ["-y", "zubeid-youtube-mcp-server"],
+      "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
       "env": {
         "YOUTUBE_API_KEY": "your_youtube_api_key_here"
       }
@@ -71,13 +71,7 @@ Add this to your Claude Desktop configuration:
 }
 ```
 
-### Installing via Smithery
 
-To install YouTube MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ZubeidHendricks/youtube):
-
-```bash
-npx -y @smithery/cli install @ZubeidHendricks/youtube --client claude
-```
 
 ## Configuration
 Set the following environment variables:
@@ -109,7 +103,7 @@ Add the following JSON block to your User Settings (JSON) file in VS Code. You c
     "servers": {
       "youtube": {
         "command": "npx",
-        "args": ["-y", "zubeid-youtube-mcp-server"],
+        "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
         "env": {
           "YOUTUBE_API_KEY": "${input:apiKey}"
         }
@@ -134,7 +128,7 @@ Optionally, you can add it to a file called `.vscode/mcp.json` in your workspace
   "servers": {
     "youtube": {
       "command": "npx",
-      "args": ["-y", "zubeid-youtube-mcp-server"],
+      "args": ["-y", "arsalan-ayaz-youtube-mcp-server"],
       "env": {
         "YOUTUBE_API_KEY": "${input:apiKey}"
       }
