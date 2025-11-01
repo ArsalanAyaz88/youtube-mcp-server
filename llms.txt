@@ -8,7 +8,7 @@ This server can be deployed in two ways:
 
 1. As a local npm package:
    ```
-   npm install arsalan-ayaz-youtube-mcp-server
+   npm install youtube-mcp-server-by-arsalan
    ```
 
 2. Via Docker deployment on Smithery:

@@ -21,8 +21,8 @@ import {
 export async function startMcpServer() {
     const server = new Server(
         {
-            name: 'arsalan-ayaz-youtube-mcp-server',
-            version: '1.0.0',
+            name: 'youtube-mcp-server-by-arsalan',
+            version: '1.0.1',
         },
         {
             capabilities: {
@@ -258,7 +258,7 @@ export async function startMcpServer() {
     await server.connect(transport);
     
     // Log the server info
-    console.log(`YouTube MCP Server v1.0.0 started successfully`);
+    console.log(`YouTube MCP Server v1.0.1 started successfully`);
     console.log(`Server will validate YouTube API key when tools are called`);
     
     return server;
