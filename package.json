@@ -1,5 +1,5 @@
 {
-  "name": "zubeid-youtube-mcp-server",
+  "name": "arsalan-ayaz-youtube-mcp-server",
   "version": "1.0.0",
   "description": "YouTube MCP Server Implementation",
   "type": "module",
@@ -39,14 +39,11 @@
     "claude",
     "anthropic"
   ],
-  "author": "Zubeid Hendricks",
+  "author": "Arsalan Ayaz",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZubeidHendricks/youtube-mcp-server.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ZubeidHendricks/youtube-mcp-server/issues"
-  },
-  "homepage": "https://github.com/ZubeidHendricks/youtube-mcp-server#readme"
+    "url": "https://github.com/ArsalanAyaz88/youtube-mcp-server.git"
+  }
+  
 }
